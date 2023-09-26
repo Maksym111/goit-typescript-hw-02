@@ -13,7 +13,7 @@ enum Day {
   Saturday = 0,
 }
 
-function isWeekend(dayName: Day) {
+function isWeekend(dayName: Day): boolean {
   return Boolean(dayName);
 }
 
